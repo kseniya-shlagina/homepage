@@ -1,0 +1,211 @@
+// Load CSS Reset from NPM
+@import "~normalize.css";
+
+body {
+
+    font-family: "Georgia", Arial, serif;
+    line-height: 1.5;
+
+        h2 {
+            font-weight: 100;
+            text-decoration: underline;
+        }
+        h3 {
+            font-weight: 150;
+        }
+
+        p, li {
+            color: #797D7F;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #808080;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #808080;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #696969;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+
+}
+
+// about me section start
+
+.about-me {
+    width: 100%;
+    min-height: 100vh;
+
+    >div {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        min-height: 100vh;
+    }
+
+    .info {
+        box-sizing: border-box;
+        padding: 100px;
+        background-color: white;
+
+        h1 {
+            font-weight: 200;
+        }
+
+        h3 {
+            color: #b3b3b3;
+            font-weight: 150;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            color: #b3b3b3;
+            line-height: 1.7;
+        }
+
+        .social-media {
+
+            margin-top: 70px;
+            text-align: right;
+
+            a {
+                margin-right: 20px;
+            }
+
+        }
+
+    }
+
+    .photo {
+        background-image: url(../images/photo1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+// about me section end
+
+// education section start
+
+.education {
+    box-sizing: border-box;
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+    min-height: 50vh;
+    background-color: #F2F3F4;
+    border-bottom: 1px solid #696969;
+
+    >div {
+        display: inline-block;
+    }
+
+    .education-info {
+        width: 50%;
+        text-align: right;
+    }
+
+    .education-header {
+        width: 50%;
+        vertical-align: top;
+        text-align: center;
+
+        .education-image {
+            width: 200px;
+            height: 200px;
+            background-image: url(../images/img1.png);
+            background-size: cover;
+            margin: auto;
+        }
+    }
+}
+
+// education section end
+
+// experience section start
+
+.experience {
+    box-sizing: border-box;
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+    min-height: 50vh;
+    border-bottom: 1px solid #696969;
+
+    >div {
+        display: inline-block;
+    }
+
+    .experience-header {
+        width: 50%;
+        vertical-align: top;
+        text-align: center;
+
+        .experience-image {
+            width: 200px;
+            height: 200px;
+            background-image: url(../images/img2.png);
+            background-size: cover;
+            margin: auto;
+        }
+    }
+
+    .experience-info {
+        width: 50%;
+
+    }
+}
+
+
+// experience section end
+
+// other skills section start
+
+.other-skills {
+
+    box-sizing: border-box;
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+    min-height: 30vh;
+    border-bottom: 1px solid #696969;
+    background-color: #F2F3F4;
+
+    >div {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .other-skills-header {
+        vertical-align: top;
+        text-align: center;
+    }
+}
+// other skills section end
+
+// footer
+
+.footer {
+    width: 30%;
+    height: 15vh;
+    margin: auto;
+    text-align: center;
+    // background-color: #D7DBDD;
+}
+
+// footer end
+
+
+
+
